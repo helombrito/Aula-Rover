@@ -1,11 +1,34 @@
-.classe1{
-    color: green; 
-    font-weight: 800; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+}
 
-    .classe2{
-    color: blue; 
-    font-weight: 800; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto; /* deixa centralizado automaticamente*/
+}
+
+.header .container{
+    display: flex; /* flex organiza o container na horizontal */
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #e3b062;
+}
+
+.agora{
+    font-weight: 1000;
+}
